@@ -1,1 +1,39 @@
 /* Put your style information here! */
+.font {
+    font-family: 'Merriweather', serif;
+}
+
+/* Used to apply the background coloring scheme */
+.background-col{
+    background-color: #EEEEEE;
+}
+
+/* Used to change color to blue upon hover */
+.link:hover {
+    color:#156893 !important;
+}
+
+/* Used to style buttons */
+.button {
+    background-color: #166893;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .button:hover {
+    background-color: #1595D0;
+  }
+  .drop:hover {
+    background-color:#1595D0 !important;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+      filter: invert(100%);
+  }
